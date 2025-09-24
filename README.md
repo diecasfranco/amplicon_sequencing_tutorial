@@ -19,7 +19,7 @@ Install via conda:
 conda create -n amplicon-tutorial -c bioconda -c conda-forge fastqc trim-galore pear sra-tools vsearch
 conda activate amplicon-tutorial
 ```
-## 📥 Step 1: Download Data
+## 📥 Step 1: Download Data (This is an example with a random SRA project)
 ```
 prefetch SRR12345678
 fastq-dump --split-files SRR12345678
